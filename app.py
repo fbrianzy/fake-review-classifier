@@ -13,7 +13,7 @@ with open(f'{model_dir}model_rf.pkl', 'rb') as f:
     model_rf = pickle.load(f)
 with open(f'{model_dir}model_dt.pkl', 'rb') as f:
     model_dtr = pickle.load(f)
-with open(f'{model_dir}tf_idf.pkl', 'rb') as f:
+with open(f'{model_dir}tfidf.pkl', 'rb') as f:
     tfidf = pickle.load(f)
 with open(f'{model_dir}username_encoder.pkl', 'rb') as f:
     username_encoder = pickle.load(f)
