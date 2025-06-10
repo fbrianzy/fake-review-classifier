@@ -46,8 +46,8 @@ Model-model dilatih dan dievaluasi, menghasilkan akurasi berikut:
 
 1.  Gandakan (clone) repositori ini:
     ```bash
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-    cd your-repo-name
+    git clone [https://github.com/fbrianzy/fake-review-classifier.git](https://github.com/fbrianzy/fake-review-classifier.git)
+    cd fake-review-clssifier
     ```
 
 2.  Instal dependensi yang diperlukan:
