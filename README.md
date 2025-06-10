@@ -1,7 +1,7 @@
 # 🕵️‍♂️ Fake Review Classifier 🕵️‍♀️
 **Klasifikasi Ulasan Produk sebagai Asli atau Palsu Menggunakan Machine Learning (Naive Bayes, Random Forest, Decision Tree)**
 
-![Streamlit App Screenshot](https://raw.githubusercontent.com/your-username/your-repo/main/assets/Screenshot.png)
+![Streamlit App Screenshot](https://raw.githubusercontent.com/your-username/your-repo/main/assets/Screenshot-app.png)
 *(Anda dapat mengganti tautan di atas dengan tangkapan layar aplikasi Anda yang sebenarnya)*
 
 ---
