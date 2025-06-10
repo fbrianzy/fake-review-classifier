@@ -37,6 +37,7 @@ The models were trained and evaluated, yielding the following accuracies:
   - TF-IDF vectorization of the review text.
   - Categorical encoding of the username.
   - The total word count of the review.
+
 🔮 **Instant Predictions**: Get a direct "Real" or "Fake" classification.
 
 ---
