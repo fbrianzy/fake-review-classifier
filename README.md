@@ -46,7 +46,7 @@ The models were trained and evaluated, yielding the following accuracies:
 1.  Clone this repository:
     ```bash
     git clone https://github.com/fbrianzy/fake-review-classifier/
-    cd your-repo-name
+    cd fake-review-classifier
     ```
 
 2.  Install the required dependencies:
