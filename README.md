@@ -2,7 +2,6 @@
 **Klasifikasi Ulasan Produk sebagai Asli atau Palsu Menggunakan Machine Learning (Naive Bayes, Random Forest, Decision Tree)**
 
 ![Streamlit App Screenshot](./assets/Screenshot-app.png)
-*(Anda dapat mengganti tautan di atas dengan tangkapan layar aplikasi Anda yang sebenarnya)*
 
 ---
 
