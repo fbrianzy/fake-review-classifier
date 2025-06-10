@@ -1,61 +1,110 @@
 # 🕵️‍♂️ Fake Review Classifier 🕵️‍♀️
-**Klasifikasi Ulasan Produk sebagai Asli atau Palsu Menggunakan Machine Learning (Naive Bayes, Random Forest, Decision Tree)**
+**Classify Product Reviews as Real or Fake Using Machine Learning (Naive Bayes, Random Forest, Decision Tree)**
 
-![Streamlit App Screenshot](./assets/Screenshot-app.png)
-
----
-
-## 🚀 Demo Langsung
-🔗 [Coba Aplikasinya di Streamlit Cloud](https://fake-review-classifier.streamlit.app/)
-*(Ganti dengan tautan Streamlit Cloud Anda yang sebenarnya)*
+![Streamlit App Screenshot](./assets/Screenshot-app,png)
+*(You can replace the link above with a real screenshot of your app)*
 
 ---
 
-## 💡 Ikhtisar
-Proyek ini adalah aplikasi web Streamlit yang dirancang untuk **mendeteksi ulasan produk palsu**. Aplikasi ini menggunakan machine learning untuk mengklasifikasikan ulasan sebagai "Real" atau "Fake" berdasarkan teks ulasan, nama pengguna pengulas, dan panjang ulasan.
+## 🚀 Live Demo
+🔗 [Try the App on Streamlit Cloud](https://fake-review-classifier.streamlit.app/)
 
-Aplikasi ini menggunakan model machine learning berikut:
+---
+
+## 💡 Overview
+This project is a Streamlit web application designed to **detect fake product reviews**. It uses machine learning to classify a review as "Real" or "Fake" based on the review text, the reviewer's username, and the length of the review.
+
+This app utilizes the following machine learning models:
 - 🌳 **Random Forest**
 - 🌲 **Decision Tree**
 - 🧠 **Naive Bayes**
 
-Cukup masukkan nama pengguna dan ulasan, pilih model, dan biarkan aplikasi menentukan keasliannya.
+Simply enter a username and a review, choose a model, and let the app determine its authenticity.
 
 ---
 
-## 📊 Performa Model
-Model-model dilatih dan dievaluasi, menghasilkan akurasi berikut:
-- **Random Forest**: 83% Akurasi
-- **Decision Tree**: 78% Akurasi
-- **Naive Bayes**: 63% Akurasi
+## 📊 Model Performance
+The models were trained and evaluated, yielding the following accuracies:
+- **Random Forest**: 83% Accuracy
+- **Decision Tree**: 78% Accuracy
+- **Naive Bayes**: 63% Accuracy
 
 ---
 
-## 🧠 Fitur
-✅ **Pemilih Model**: Pilih dari Naive Bayes, Random Forest, atau Decision Tree.
-📝 **Input Teks & Pengguna**: Sediakan teks ulasan dan nama pengguna untuk prediksi.
-🤖 **Rekayasa Fitur**: Prediksi didasarkan pada kombinasi:
-  - Vektorisasi TF-IDF dari teks ulasan.
-  - Encoding kategorikal dari nama pengguna.
-  - Jumlah total kata dari ulasan.
-🔮 **Prediksi Instan**: Dapatkan klasifikasi "Real" atau "Fake" secara langsung.
+## 🧠 Features
+✅ **Model Selector**: Choose from Naive Bayes, Random Forest, or Decision Tree.
+📝 **Text & User Input**: Provide both the review text and username for the prediction.
+🤖 **Feature Engineering**: Predictions are based on a combination of:
+  - TF-IDF vectorization of the review text.
+  - Categorical encoding of the username.
+  - The total word count of the review.
+🔮 **Instant Predictions**: Get a direct "Real" or "Fake" classification.
 
 ---
 
-## 📁 Cara Menjalankan Secara Lokal
+## 📁 How to Run Locally
 
-1.  Gandakan (clone) repositori ini:
+1.  Clone this repository:
     ```bash
-    git clone https://github.com/fbrianzy/fake-review-classifier
-    cd fake-review-clssifier
+    git clone # 🕵️‍♂️ Fake Review Classifier 🕵️‍♀️
+**Classify Product Reviews as Real or Fake Using Machine Learning (Naive Bayes, Random Forest, Decision Tree)**
+
+![Streamlit App Screenshot](https://raw.githubusercontent.com/your-username/your-repo/main/assets/Screenshot.png)
+*(You can replace the link above with a real screenshot of your app)*
+
+---
+
+## 🚀 Live Demo
+🔗 [Try the App on Streamlit Cloud](https://your-streamlit-link.streamlit.app)
+*(Replace with your actual Streamlit Cloud link)*
+
+---
+
+## 💡 Overview
+This project is a Streamlit web application designed to **detect fake product reviews**. It uses machine learning to classify a review as "Real" or "Fake" based on the review text, the reviewer's username, and the length of the review.
+
+This app utilizes the following machine learning models:
+- 🌳 **Random Forest**
+- 🌲 **Decision Tree**
+- 🧠 **Naive Bayes**
+
+Simply enter a username and a review, choose a model, and let the app determine its authenticity.
+
+---
+
+## 📊 Model Performance
+The models were trained and evaluated, yielding the following accuracies:
+- **Random Forest**: 83% Accuracy
+- **Decision Tree**: 78% Accuracy
+- **Naive Bayes**: 63% Accuracy
+
+---
+
+## 🧠 Features
+✅ **Model Selector**: Choose from Naive Bayes, Random Forest, or Decision Tree.
+📝 **Text & User Input**: Provide both the review text and username for the prediction.
+🤖 **Feature Engineering**: Predictions are based on a combination of:
+  - TF-IDF vectorization of the review text.
+  - Categorical encoding of the username.
+  - The total word count of the review.
+🔮 **Instant Predictions**: Get a direct "Real" or "Fake" classification.
+
+---
+
+## 📁 How to Run Locally
+
+1.  Clone this repository:
+    ```bash
+    git clone https://github.com/fbrianzy/fake-review-classifier/
+    cd your-repo-name
     ```
 
-2.  Instal dependensi yang diperlukan:
+2.  Install the required dependencies:
     ```bash
     pip install -r requirements.txt
     ```
 
-3.  Jalankan aplikasi Streamlit:
+3.  Run the Streamlit application:
     ```bash
     streamlit run app.py
     ```
